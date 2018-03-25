@@ -63,9 +63,9 @@ int main()
 						v[j] = { real(b[j])*cos(kr) + imag(b[j])*sin(kr),imag(b[j])*cos(kr) - real(b[j])*sin(kr) };
 					}
 					v1 = { real(v1) + real(v[0]) , imag(v1) + imag(v[0] };
-					v2 = { real(v1) + real(v[1]) , imag(v1) + imag(v[1] };
-					v3 = { real(v1) + real(v[2]) , imag(v1) + imag(v[2] };
-					v4 = { real(v1) + real(v[2]) , imag(v1) + imag(v[3] };
+					v2 = { real(v2) + real(v[1]) , imag(v2) + imag(v[1] };
+					v3 = { real(v3) + real(v[2]) , imag(v3) + imag(v[2] };
+					v4 = { real(v4) + real(v[3]) , imag(v4) + imag(v[3] };
 					//v1=v1 + v1;
 					//v1=v1 + v1;
 					delete[]a;
